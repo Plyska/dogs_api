@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.photos {
+  width: auto;
+  height: auto;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+
+.select1{
+    width: 100px;
+    border-width: 0 0 2px 0;
+    background-color: aqua;
+    border: none; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.select2{
+    margin-left: 0.75rem;
+    width: 100px;
+    border-width: 0 0 2px 0;
+    background-color: aqua;
+    border: none; 
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.buttonSearch {
+    margin-left: 0.75rem;
+    background-color: rgb(47, 219, 4);
+    border-radius: 5px;
+    border: none;
+    border-width: 0 0 2px 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.main {
+    padding-bottom: 100px;
+    background-color: rgb(169, 253, 225);   
+}
+
+.buttonClean {
+  margin-left: 0.75rem;
+  background-color: rgb(47, 219, 4);
+  border-radius: 5px;
+  border: none;
+  border-width: 0 0 2px 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+.button {
+  display: flex;
+  
+
+}
+
+.string {
+  display: flex;
+  margin: 100px;
+}
